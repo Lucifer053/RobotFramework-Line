@@ -1,5 +1,5 @@
 <h1>Introduction</h1>
-  RobotFramework-Line is a Robot Framework Library that provides keywords to Sends notifications to users or groups that are related to an access token.<br>
+  RobotFramework-Line is a Robot Framework Library that provides keywords to sends notifications to users or groups that are related to an access token.<br>
 
   Information about Robotframework-excel keywords can be found on the <a href="https://lucifer053.github.io/RobotFramework-Line/Doc/KeywordDocumentation.html" >Keyword Documentation.</a>
   
