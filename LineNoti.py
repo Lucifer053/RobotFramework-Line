@@ -11,8 +11,6 @@ class LineNoti():
 
     def set_line_token(self,line_token):
         """
-        Set Line Token
-
         Arguments:
         | line_token      |  An access token for authentication  |
 
@@ -26,8 +24,6 @@ class LineNoti():
 
     def line_text(self,message):
         """
-        Line Text
-
         Arguments:
         |   message     |  	1000 characters max  |
 
@@ -45,8 +41,6 @@ class LineNoti():
 
     def line_pic(self,path_file):
         """
-        Line Pic
-
         Arguments:
         |   path_file     |  Upload a image file to the LINE server.Supported image format is png and jpeg. |
 
@@ -65,8 +59,6 @@ class LineNoti():
 
     def line_pic_url(self,url):
         """
-        Line Pic URL
-
         Arguments:
         |   path_file     |  Upload a image file to the LINE server.Supported image format is png and jpeg. |
 
@@ -84,8 +76,6 @@ class LineNoti():
 
     def line_sticker(self,PackageId,StickerId):
         """
-        Line Sticker
-
         Arguments:
         |   PackageId     |  https://devdocs.line.me/files/sticker_list.pdf |
         |   StickerId     |  https://devdocs.line.me/files/sticker_list.pdf |
