@@ -7,7 +7,8 @@ class LineNoti():
     def __init__(self):
         ROBOT_LIBRARY_SCOPE = 'GLOBAL'
         ROBOT_LIBRARY_VERSION = __version__
-        self.URL_LINE = 'https://notify-api.line.me/api/notify'
+        self.URL_LINE = 'https://notify-api.line.me/api/noti' \
+                        'fy'
 
     def set_line_token(self,line_token):
         """
@@ -74,7 +75,7 @@ class LineNoti():
         session_post = session.post(self.URL_LINE, headers=LINE_HEADERS, data=msg)
         print(session_post.text)
 
-    def line_sticker(self,PackageId,StickerId):
+    def line_sticker(self,StickerId,PackageId):
         """
         Arguments:
         |   PackageId     |  https://devdocs.line.me/files/sticker_list.pdf |
